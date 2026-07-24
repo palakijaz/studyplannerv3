@@ -1,0 +1,6 @@
+{
+  "name": "StudyFlow - AI Study Planner & Assistant",
+  "description": "An intelligent study planning platform with AI schedule generation, interactive tutor, flashcards, Pomodoro timer, and course tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
