@@ -25,30 +25,6 @@ Students often struggle with managing complex academic workloads, balancing mult
 * **Subject & Task Manager:** Full CRUD capabilities to manage subjects, add specific assignments, and track progress.
 
 ---
-
-## 🤖 AI Feature & Prompt Design
-
-### How the AI Feature Works
-StudyFlow incorporates an AI Tutor and AI Schedule Generator driven by Google Gemini API. The AI contextually adapts to user inputs, subject choices, and study goals to produce structured study plans and academic explanations.
-
-### System Prompt / System Instructions
-The AI engine is governed by the following core system prompt:
-
-```text
-You are an intelligent, supportive, and structured AI Academic Tutor and Study Assistant.
-Your goal is to help students break down complex coursework, organize their study schedules, 
-and learn efficiently.
-
-When asked to generate study plans:
-1. Provide action-oriented, structured daily or weekly breakdowns.
-2. Estimate time per sub-task realistically based on standard student study patterns.
-3. Keep formatting clean, scannable, and formatted clearly using Markdown headers and bullet points.
-
-When explaining concepts:
-1. Break down difficult subjects into clear, digestible steps.
-2. Use analogies, concise summaries, and quick practice questions where appropriate.
-3. Maintain an encouraging, focused, and academic tone.
-
 🛠️ Tech Stack & Services Used
 Frontend Framework: React (TypeScript) with Vite
 
@@ -61,10 +37,9 @@ AI Model: Google Gemini API (gemini-1.5-flash)
 Version Control: Git & GitHub
 
 📸 Screenshots
-<img width="625" height="540" alt="Screenshot 2026-07-25 21 54 22" <img width="1022" height="620" alt="Screenshot 2026-07-25 21 55 58" src="https://github.com/user-attachments/assets/aaf0760c-23bf-4c1d-a451-d52a01298336" />
-<img width="1022" height="524" alt="Screenshot 2026-07-25 21 55 32" src="https://github.com/user-attachments/assets/bf2f81a3-cba4-47df-840f-dbc576da09ae" />
-src="https://github.com/user-attachments/assets/1c1cbd60-8268-47f9-ab07-7c1bda885dad" />
-
+<img width="625" height="540" alt="Screenshot 2026-07-25 21 54 22" src="https://github.com/user-attachments/assets/c47234d9-b5d3-4d89-b01f-9c87c7364180" />
+<img width="1022" height="524" alt="Screenshot 2026-07-25 21 55 32" src="https://github.com/user-attachments/assets/1cb0b3e6-1e77-4896-9488-b2e640a710ff" />
+<img width="1022" height="620" alt="Screenshot 2026-07-25 21 55 58" src="https://github.com/user-attachments/assets/bb429332-1a70-4dbf-81de-fd962a7fade4" />
 
 🚀 How to Run the Project Locally
 Prerequisites
@@ -95,7 +70,26 @@ Build for production:
 
 Bash
 npm run build
+## 🤖 AI Feature & Prompt Design
 
----
+### How the AI Feature Works
+StudyFlow incorporates an AI Tutor and AI Schedule Generator driven by Google Gemini API. The AI contextually adapts to user inputs, subject choices, and study goals to produce structured study plans and academic explanations.
 
+### System Prompt / System Instructions
+The AI engine is governed by the following core system prompt:
+
+```text
+You are an intelligent, supportive, and structured AI Academic Tutor and Study Assistant.
+Your goal is to help students break down complex coursework, organize their study schedules, 
+and learn efficiently.
+
+When asked to generate study plans:
+1. Provide action-oriented, structured daily or weekly breakdowns.
+2. Estimate time per sub-task realistically based on standard student study patterns.
+3. Keep formatting clean, scannable, and formatted clearly using Markdown headers and bullet points.
+
+When explaining concepts:
+1. Break down difficult subjects into clear, digestible steps.
+2. Use analogies, concise summaries, and quick practice questions where appropriate.
+3. Maintain an encouraging, focused, and academic tone.
 
