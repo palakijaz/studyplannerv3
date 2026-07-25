@@ -48,6 +48,7 @@ When explaining concepts:
 1. Break down difficult subjects into clear, digestible steps.
 2. Use analogies, concise summaries, and quick practice questions where appropriate.
 3. Maintain an encouraging, focused, and academic tone.
+
 🛠️ Tech Stack & Services Used
 Frontend Framework: React (TypeScript) with Vite
 
@@ -97,8 +98,4 @@ npm run build
 
 ---
 
-### Final Steps:
-1. Open the **Chromebook Files app** next to GitHub.
-2. Drag 3 screenshot images from your files and drop them directly under the **`## 📸 Screenshots`** heading in the editor.
-3. Scroll down and click **Commit changes...**.
-4. Open `[https://github.com/palakijaz/studyplannerv3](https://github.com/palakijaz/studyplannerv3)` in an **Incognito window** to confirm it is live and public!
+
