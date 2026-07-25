@@ -27,7 +27,7 @@ import {
   INITIAL_NOTES,
   INITIAL_STUDY_SESSIONS,
   INITIAL_USER_STATS,
-} from './data/initialData';
+} from './initialData';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<string>('dashboard');
