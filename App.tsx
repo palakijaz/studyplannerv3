@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { Navbar } from './components/Navbar';
-import { DashboardView } from './components/DashboardView';
-import { PlannerView } from './components/PlannerView';
-import { AiTutorView } from './components/AiTutorView';
-import { FlashcardsView } from './components/FlashcardsView';
-import { FocusTimerView } from './components/FocusTimerView';
-import { NotesLibraryView } from './components/NotesLibraryView';
-import { AiPlannerModal } from './components/AiPlannerModal';
-import { SubjectManagerModal } from './components/SubjectManagerModal';
+import { Navbar } from './Navbar';
+import { DashboardView } from './DashboardView';
+import { PlannerView } from './PlannerView';
+import { AiTutorView } from './AiTutorView';
+import { FlashcardsView } from './FlashcardsView';
+import { FocusTimerView } from './FocusTimerView';
+import { NotesLibraryView } from './NotesLibraryView';
+import { AiPlannerModal } from './AiPlannerModal';
+import { SubjectManagerModal } from './SubjectManagerModal';
 
 import {
   Subject,
